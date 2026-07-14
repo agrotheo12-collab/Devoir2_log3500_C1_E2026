@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Atlas Mondial Interactif</title>
+    <link rel="stylesheet" href="style1.css"> 
+</head>
+
+<body>
+
+  <header>
+    <!-- ===== Barre de navigation ===== -->
+     <nav>
+       <div class="navbar">
+        <div class="logo"> 🌍 Atlas Mondial Interactif</div>
+
+        <div class="nav-links">
+            <a href="#" class="active">Home</a>
+            <a href="#">Countries</a>
+            <a href="#">Regions</a>
+            <a href="#">Map</a>
+            <a href="#">About</a> 
+        </div>
+       </div>
+     </nav>
+  </header> 
+
+  <main>
+    <!-- ===== Contenu principal ===== -->
+     <section>
+        <div class="search-box">
+          🔍
+          <input id="pays" type="text" placeholder="Rechercher un pays...">
+         </div>
+         <div class="page">
+           <a class="back-link" id="resetLink"> Back to Americas</a>
+         </div>
+     </section>
+
+     <section> 
+        <!-- ===== C'est ici que JavaScript va afficher : le chargement, l'erreur, ou la carte ===== -->
+        <div id="resultat">
+           <div class="state-box">
+              <p> Tapez un nom de pays puis appuyer sur Entrée pour commencer.</p>
+            </div>
+        </div>
+      </section>
+  </main>
+
+  <footer>
+    <p>© 2026 - LOG3500 Devoir 2 - Atlas Mondial Interactif</p>
+  </footer>
+
+  <script src="script1.js"></script>
+</body>
+</html>
